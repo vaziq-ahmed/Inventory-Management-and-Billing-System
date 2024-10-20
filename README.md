@@ -1,4 +1,5 @@
 # Inventory-Management-and-Billing-System
+
 ## Overview
 
 SmartCart is a simple console-based shopping cart application written in C++. It allows users to login, view available products, add items to a cart, and generate a bill. The system applies a tax rate on the final amount and saves the bill to a file for record-keeping. The project incorporates Object-Oriented Programming (OOP) concepts to manage products, the shopping cart, billing, and user authentication.
@@ -50,17 +51,3 @@ SmartCart is a simple console-based shopping cart application written in C++. It
 
    ```bash
    g++ -o SmartCart main.cpp
-
-
-
-## Sample bill
--------------------------------------------------------------
-S.N.|    NAME           | QUANTITY |  PRICE  |  
--------------------------------------------------------------
-1     Apples            2         100
-2     Coffee            3         60
--------------------------------------------------------------
-Total--------------------------------- 160 ----
-The tax percentage is 9 (including GST)
-The tax amount is 14.40
-Final total---------------------------- 174.40 ----
